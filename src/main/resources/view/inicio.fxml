@@ -4,12 +4,9 @@
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity"
-	minHeight="-Infinity" minWidth="-Infinity" prefHeight="117.0"
-	prefWidth="326.0" xmlns="http://javafx.com/javafx/8.0.101" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="117.0" prefWidth="326.0" xmlns="http://javafx.com/javafx/8.0.101" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.javafx.tiocoding.controller.InicioController">
 	<children>
-		<Button layoutX="133.0" layoutY="66.0" mnemonicParsing="false"
-			text="Button" />
-		<TextField layoutX="78.0" layoutY="26.0" />
+		<Button fx:id="btnAccion" layoutX="133.0" layoutY="66.0" mnemonicParsing="false" text="Button" />
+		<TextField fx:id="txtMensaje" layoutX="78.0" layoutY="26.0" />
 	</children>
 </AnchorPane>
